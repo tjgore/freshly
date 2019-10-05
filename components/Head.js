@@ -8,16 +8,17 @@ const Head = (props) => (
         <meta content="en_US" property="og:locale"/>
         <meta content="website" property="og:type"/>
             
-        <meta name="theme-color" content={props.themeColor}/>
-        <meta content={props.email} property="og:email"/>
-        <meta name="description" content={props.description}/>
-        <meta content={props.title} property="og:site_name"/>
+        <meta name="theme-color" content="#6b46c1"/>
+        <meta content="hello@freshly-example.com" property="og:email"/>
+        <meta content="Freshly" property="og:site_name"/>
+        <meta name="description" content="A food recipe site focused on being healthy and feeling good!"/>
+        
         <meta content={props.title} property="og:title"/>
         <meta content={props.image} property="og:image"/>
         <meta content={props.description} name="og:description"/>
         <meta content={props.permalink} property="og:url"/>
         <link rel="canonical" href={props.permalink}></link>
-        <title>{props.title}</title>
+        <title>{props.title} | Freshly</title>
     </HeadTag>
 )
 

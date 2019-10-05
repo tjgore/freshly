@@ -3,7 +3,7 @@ import Head from '../components/Head'
 
 const Index = () => (
     <Layout>
-        <Head title="Page Title 2.0"/>
+        <Head title="Home"/>
         <p>Hello world</p>
     </Layout>
 )
