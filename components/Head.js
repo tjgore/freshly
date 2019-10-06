@@ -19,6 +19,7 @@ const Head = (props) => (
         <meta content={props.permalink} property="og:url"/>
         <link rel="canonical" href={props.permalink}></link>
         <title>{props.title} | Freshly</title>
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"/>
     </HeadTag>
 )
 

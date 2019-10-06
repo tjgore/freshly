@@ -1,12 +1,10 @@
 import Nav from './Nav'
-import Header from './Header'
 import Footer from './Footer'
 import '../static/styles.css'
 
 const Layout = (props) => (
-    <div>
+    <div className="text-gray-700 leading-relaxed">
         <Nav/>
-        <Header/>
             {props.children}
         <Footer/>
     </div>

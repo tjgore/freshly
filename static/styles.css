@@ -11369,6 +11369,10 @@ video {
   background: linear-gradient(to bottom right, #3739f4, rgba(174,55,244,0.7));
 }
 
+.bg-grad-dark {
+  background: rgba(0,0,0,0.6);
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -22106,6 +22110,10 @@ video {
 
   .sm\:bg-grad-purple {
     background: linear-gradient(to bottom right, #3739f4, rgba(174,55,244,0.7));
+  }
+
+  .sm\:bg-grad-dark {
+    background: rgba(0,0,0,0.6);
   }
 }
 
@@ -32847,6 +32855,10 @@ video {
   .md\:bg-grad-purple {
     background: linear-gradient(to bottom right, #3739f4, rgba(174,55,244,0.7));
   }
+
+  .md\:bg-grad-dark {
+    background: rgba(0,0,0,0.6);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -43587,6 +43599,10 @@ video {
   .lg\:bg-grad-purple {
     background: linear-gradient(to bottom right, #3739f4, rgba(174,55,244,0.7));
   }
+
+  .lg\:bg-grad-dark {
+    background: rgba(0,0,0,0.6);
+  }
 }
 
 @media (min-width: 1280px) {
@@ -54326,5 +54342,9 @@ video {
 
   .xl\:bg-grad-purple {
     background: linear-gradient(to bottom right, #3739f4, rgba(174,55,244,0.7));
+  }
+
+  .xl\:bg-grad-dark {
+    background: rgba(0,0,0,0.6);
   }
 }

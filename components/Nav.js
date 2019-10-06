@@ -11,29 +11,24 @@ const Nav = () => (
         </div>
         <ul className="w-full md:w-2/3 lg:text-right text-center text-md text-gray-700 lg:pb-0 pb-4">
             <li className="inline-block mx-4 lg:mb-0 mb-4">
-                <Link href="/">
+                <Link href="/about">
                     <a className="hover:text-gray-900">About</a>
                 </Link>
             </li>
             <li className="inline-block mx-4">
-                <Link href="/">
+                <Link href="/why">
                     <a className="hover:text-gray-900">Why Freshly</a>
                 </Link>
             </li>
             <li className="inline-block mx-4">
-                <Link href="/">
-                    <a className="hover:text-gray-900">Vegan</a>
+                <Link href="/#latest">
+                    <a className="hover:text-gray-900">Latest</a>
                 </Link>
             </li>
             <li className="inline-block mx-4">
-                <Link href="/">
-                    <a className="hover:text-gray-900">Healty Snacks</a>
+                <Link href="/#popular">
+                    <a className="hover:text-gray-900">Popular</a>
                     </Link>
-            </li>
-            <li className="inline-block mx-4">
-                <Link href="/">
-                    <a className="hover:text-gray-900">Deserts</a>
-                </Link>
             </li>
         </ul>
     </nav>
