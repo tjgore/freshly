@@ -2,7 +2,7 @@ import HeadTag from 'next/head'
 
 const Head = (props) => (
     <HeadTag>
-        <meta charset="utf-8"/>
+        <meta charSet="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta content="en_US" property="og:locale"/>
@@ -19,7 +19,7 @@ const Head = (props) => (
         <meta content={props.permalink} property="og:url"/>
         <link rel="canonical" href={props.permalink}></link>
         <title>{props.title} | Freshly</title>
-        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"/>
+        <link href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css" rel="stylesheet"/>
     </HeadTag>
 )
 
