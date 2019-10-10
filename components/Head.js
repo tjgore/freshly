@@ -3,7 +3,7 @@ import HeadTag from 'next/head'
 const Head = (props) => (
     <HeadTag>
         <meta charSet="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta content="en_US" property="og:locale"/>
         <meta content="website" property="og:type"/>
