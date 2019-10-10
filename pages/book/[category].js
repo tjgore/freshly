@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router'
+import fetch from 'isomorphic-unfetch'
 import Layout from '../../components/Layout'
 import RecentBooksCard from '../../components/RecentBooksCard'
 
