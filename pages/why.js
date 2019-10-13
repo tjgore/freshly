@@ -1,7 +1,10 @@
 import Layout from '../components/Layout'
+import Head from '../components/Head'
+
 
 const Why = () => (
     <Layout>
+        <Head title="Why"/>
         <div className="lg:px-20 px-8 mb-24">
         <img src="/static/images/alien.svg" className="h-16 mt-16 m-auto" alt="alien"/>
         <h1 className="text-6xl text-center mb-12  font-extrabold">How is Freshly Different?</h1>

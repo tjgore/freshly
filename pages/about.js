@@ -1,7 +1,9 @@
 import Layout from '../components/Layout'
+import Head from '../components/Head'
 
 const About = () => (
     <Layout>
+        <Head title="About Us"/>
         <div className="lg:px-20 px-8 mb-24">
         <img src="/static/images/book.svg" className="h-16 mt-16 m-auto" alt="book"/>
         <h1 className="text-6xl text-center mb-12 font-extrabold">About Freshly</h1>
