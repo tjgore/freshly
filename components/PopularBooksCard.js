@@ -9,7 +9,7 @@ const PopularBooksCard = ({ popularBooks }) => (
                     <div key={key} className="lg:w-1/5 md:w-1/2 w-full">
                         <div className="m-3 lg:ml-0 mb-8 bg-transparent bg-center bg-no-repeat bg-cover h-64" style={{ backgroundImage: `url(${book.book_image})` }}>
                             <div className="flex flex-wrap h-full bg-grad-dark text-white p-4">
-                                <div>
+                                <div className="w-full">
                                     <p className="pt-4 pb-2 text-xl font-extrabold">{book.title}</p>
                                     <p className="text-xs"><i className="lni-user mr-1"></i> {book.author}</p>
                                     <p className="text-xs"><i className="lni-library mr-1"></i> {list.list_name}</p>

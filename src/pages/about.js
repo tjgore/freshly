@@ -1,5 +1,5 @@
-import Layout from '../components/Layout'
-import Head from '../components/Head'
+import Layout from '../../components/Layout'
+import Head from '../../components/Head'
 
 const About = () => (
     <Layout>

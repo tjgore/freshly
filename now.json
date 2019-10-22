@@ -1,0 +1,7 @@
+{
+    "build": {
+        "env": {
+            "NYT_API_KEY": "@nyt_api_key"
+        }
+    }
+}

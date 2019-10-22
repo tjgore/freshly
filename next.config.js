@@ -1,17 +1,23 @@
+require('dotenv').config()
 const withCSS = require('@zeit/next-css')
 
+const path = require('path')
+const Dotenv = require('dotenv-webpack')
+
 module.exports = withCSS({
-    /**
-     * Used with npm run export 
-     */
-    //target: 'serverless',
-    /* exportPathMap: function() {
-        const paths = {
-          '/': { page: '/' },
-          '/why': { page: '/why' },
-          '/about': { page: '/about' },
-        };
-        
-        return paths;
-      } */
+  webpack: config => {
+    config.plugins = config.plugins || []
+
+    config.plugins = [
+      ...config.plugins,
+
+      // Read the .env file
+      new Dotenv({
+        path: path.join(__dirname, '.env'),
+        systemvars: true
+      })
+    ]
+
+    return config
+  }
 })

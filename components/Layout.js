@@ -1,6 +1,6 @@
 import Nav from './Nav'
 import Footer from './Footer'
-import '../static/styles.css'
+import '../public/static/styles.css'
 
 const Layout = (props) => (
     <div className="text-gray-700 leading-relaxed">
