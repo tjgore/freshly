@@ -8,7 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "tailwind": "npx tailwind build static/tailwind.css -o static/styles.css",
+    "tailwind": "npx tailwind build public/static/tailwind.css -o public/static/styles.css",
     "deploy": "./node_modules/.bin/now ."
   },
   "keywords": [],
