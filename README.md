@@ -15,6 +15,13 @@ npm run tailwind
 npm run dev
 ```
 
+Production Build
+
+```
+npm run build
+npm start
+```
+
 If you have a [now](https://zeit.co/docs) account, deploy with zeit.co/now
 
 ```javascript
